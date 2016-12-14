@@ -1,10 +1,10 @@
 {
-  "itemName" : "armpistol",
+  "itemName" : "ap",
   "price" : 600,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A small handgun.",
-  "shortdescription" : "arm Pistol",
+  "shortdescription" : "ap",
   "tooltipKind" : "gun",
   "category" : "pistol",
   "twoHanded" : false,
@@ -68,10 +68,10 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-    "nameGenerator" : "pistolnames.config:nameGen",
+//    "nameGenerator" : "pistolnames.config:nameGen",
     "animationParts" : {
       "middle" : {
-        "path" : "middle/<variant>.png?replace;404040=00000000?border=1;404040;00000000",
+        "path" : "middle/<variant>.png?replace;404040=00000000?border=1;404040;404040",
         "variants" : 20,
         "paletteSwap" : true
       },
