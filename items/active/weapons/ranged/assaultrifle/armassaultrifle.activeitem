@@ -75,7 +75,7 @@
     "nameGenerator" : "assaultnames.config:nameGen",
     "animationParts" : {
       "butt" : {
-        "path" : "butt/<variant>.png",
+        "path" : "/items/active/weapons/ranged/assaultrifle/butt/<variant>.png",
         "variants" : 20,
         "paletteSwap" : true
       },
